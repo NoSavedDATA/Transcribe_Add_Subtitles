@@ -31,6 +31,6 @@ pip install ffmpeg-python
 
 Run:
 ```bash
-python transcribe.py
+python transcribe.py --input input.mp4
 ffmpeg -i input.mp4 -vf "subtitles=subtitles.srt" -c:a copy output.mp4
 ```
