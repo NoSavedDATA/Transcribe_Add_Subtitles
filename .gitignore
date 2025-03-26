@@ -1,0 +1,4 @@
+whisper-timestamped/
+*.mp4
+*.srt
+*.json
