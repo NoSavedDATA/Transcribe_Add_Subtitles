@@ -26,7 +26,7 @@ git clone https://github.com/linto-ai/whisper-timestamped.git
 cd whisper-timestamped
 pip install .
 cd ..
-pip install ffmpeg-python
+pip install librosa ffmpeg-python
 ```
 
 Run:
