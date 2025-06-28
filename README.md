@@ -22,6 +22,8 @@ sudo docker attach whisper
 
 Install dependencies:
 ```bash
+apt-get update
+apt-get install ffmpeg
 git clone https://github.com/linto-ai/whisper-timestamped.git
 cd whisper-timestamped
 pip install .
